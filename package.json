@@ -1,0 +1,18 @@
+{
+  "name": "iframe-buster-killer",
+  "version": "1.0.0",
+  "description": "Try to kill iframe busters to allow pages to be kept in iframes",
+  "main": "iframe-buster-killer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "iframe",
+    "buster"
+  ],
+  "author": {
+    "name": "Thomas Birke",
+    "email": "tbirke@netextreme.de"
+  },
+  "license": "ISC"
+}
