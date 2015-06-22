@@ -1,6 +1,6 @@
 {
   "name": "iframe-buster-killer",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Try to kill iframe busters to allow pages to be kept in iframes",
   "main": "iframe-buster-killer.js",
   "scripts": {
