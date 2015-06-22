@@ -1,7 +1,5 @@
 'use strict';
 
-var config = require('../config');
-
 module.exports = function (noContentUrl) {
   var preventBust = {count: 0};
   window.onbeforeunload = function() { preventBust.count++; };
