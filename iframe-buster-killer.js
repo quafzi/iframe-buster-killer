@@ -12,4 +12,10 @@ module.exports = function (noContentUrl) {
       window.top.location = noContentUrl;
     }
   }, 1);
+
+  // fix forms and links that what to open in _top
+  var targetTopEls = document.querySelectorAll('[target=_top]');
+  for (var i=0; i<targetTopEls.length; i++) {
+    targetTopEls[i].target = '';
+  }
 };
