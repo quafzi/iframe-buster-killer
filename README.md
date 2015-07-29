@@ -19,3 +19,5 @@ Using browserify, you just need to run
 
 noContentUrl needs to be some URL, responding with HTTP status 204 (no content),
 so the browser will stay on the current URL.
+
+Additionally, all target attributes with attribute value "_top" will be emptied.
